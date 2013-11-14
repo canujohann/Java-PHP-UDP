@@ -23,6 +23,7 @@ $obj->launch_udp_server("127.0.0.1", 9999);
 ##### Client Side
 
 you only have to modify the host & port in the MySocket.java (line 30). 
+
 *Please set the same information than server side.*
 
 Then compile and execute java file :
@@ -32,5 +33,5 @@ javac src/UDPServer.java
 java UDPServer
 ```
 
-You're done ! UDP Data (messageStr) in the java class was succefully send to the PHP script.
+You're done ! UDP data (messageStr) in the java class was succefully send to the PHP script.
 
