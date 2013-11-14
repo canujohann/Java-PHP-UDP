@@ -7,7 +7,7 @@ A simple UDP socket connection between Java (Client) and PHP (Server)
 
 First, launch the PHP file (server side) from command line :
 
-```
+```unix
 cd your_path
 php src/UDPServer.php
 ```
@@ -28,7 +28,7 @@ you only have to modify the host & port in the MySocket.java (line 30).
 
 Then compile and execute java file :
 
-```java
+```unix
 javac src/UDPServer.java
 java UDPServer
 ```
